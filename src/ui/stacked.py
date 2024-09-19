@@ -28,10 +28,10 @@ class MainWindow(QWidget):
 
         self.setFixedSize(300, 340)
         self.setWindowTitle("QStackedLayout Example")
-        self.set_up_main_window()
+        self.setup_main_window()
         self.show()
 
-    def set_up_main_window(self):
+    def setup_main_window(self):
         """Create and arrange widgets in the main window."""
 
         # Create and connect the combo box to switch pages

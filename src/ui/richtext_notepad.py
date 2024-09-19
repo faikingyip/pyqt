@@ -39,12 +39,12 @@ class MainWindow(QMainWindow):
         """Set up the application's GUI."""
         self.setMinimumSize(400, 500)
         self.setWindowTitle("5.1 – Rich Text Notepad GUI")
-        self.set_up_main_window()
+        self.setup_main_window()
         self.create_actions()
         self.create_menu()
         self.show()
 
-    def set_up_main_window(self):
+    def setup_main_window(self):
         """Create and arrange widgets in the main window."""
         self.text_edit = QTextEdit()
         self.text_edit.textChanged.connect(self.remove_highlights)

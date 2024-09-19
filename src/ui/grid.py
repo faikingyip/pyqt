@@ -28,11 +28,11 @@ class MainWindow(QWidget):
 
         self.setMinimumSize(500, 300)
         self.setWindowTitle("QGridLayout Example")
-        self.set_up_main_window()
+        self.setup_main_window()
         self.load_widget_values_from_file()
         self.show()
 
-    def set_up_main_window(self):
+    def setup_main_window(self):
         """Create and arrange widgets in the main window."""
 
         header_label = QLabel("Simple Daily Planner")
